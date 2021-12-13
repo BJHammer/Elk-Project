@@ -8,9 +8,9 @@ https://drive.google.com/file/d/1E_OCDZwJd6Y5ly6Iw3GLI3Is8G2y8LHS/view?usp=shari
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-- _TODO: Enter the playbook file._
 
 This document contains the following details:
+
 - Description of the Topologu
 - Access Policies
 - ELK Configuration
@@ -28,11 +28,11 @@ Load balancing ensures that the application will be highly **Secure**, in additi
 **Load balancers ensure equal distribution of traffic flow used to help minimaize the possiblility of overwhelming a network. By using a jump box provisioner as a starting point this helps reduce the potential points of unauthorized network access. Also Jump box provisioners allow easy distribution of network management and maintainence from a single point. Used in tandom with other programs eliminates time consumption and redundancy of install and maintainence along with added security. **
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **network traffic** and system **vulnerabilities**.
+
 -**Filebeat is used to monitor the log files or specific locations that have been specified**.
 -**Where as Metricbeat is used to store the actual metrics and statistics in easy to use and read formats**
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function |   IP Address  | Operating System |
 |----------|----------|---------------|------------------|
@@ -61,21 +61,29 @@ A summary of the access policies in place can be found in the table below.
 |   Web-2   |         No          |    52.146.88.50      |
 |   Web-3   |         No          |    52.146.88.50      |
 | ELK Stack |         No          |     40.86.101.4      |
+
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+
 **It provides easy automation for network wide deployment after innitial set up. Allowing for efficiency and integrity to be applied to the whole network via a singular starting point**
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
 **Step 1: Install Dependencies.** 
+
 **Step 2: Add Repository.**
+
 **Step 3: Install Docker.**
+
 **Step 4: Install Kibana.**
+
 **Step 5: Install DVWA.**
+
 **Step 6: Install Filebeat.**
+
 **Step 7: Install Metricbeat.**
+
 **Step 8: . . . Profit?**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
