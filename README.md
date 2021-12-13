@@ -98,7 +98,76 @@ This ELK server is configured to monitor the following machines:
 **10.0.0.7**
 
 We have installed the following Beats on these machines:
--
+
+Docker.io
+Python3-pip
+
+A variety of Filebeat and Metricbeat trackers. The User May specify any and all packages they wish to use.
+
+@timestamp
+
+_id
+
+_index
+
+_score
+
+_type
+
+agent.ephemeral_id
+
+agent.hostname
+
+agent.id
+
+agent.type
+
+agent.version
+
+ecs.version
+
+event.action
+
+event.category
+
+event.dataset
+
+event.module
+
+event.outcome
+
+event.timezone
+
+event.type
+
+fileset.name
+
+host.hostname
+
+host.name
+
+input.type
+
+log.file.path
+
+log.offset
+
+message
+
+process.name
+
+process.pid
+
+service.type
+
+source.ip
+
+suricata.eve.timestamp
+
+system.auth.ssh.event
+
+user.name
+
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
